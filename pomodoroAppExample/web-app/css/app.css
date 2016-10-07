@@ -1,0 +1,72 @@
+.sidebar {
+    background-color: #DDFFDD;
+    padding: 10px;
+}
+
+ul.actions {
+    list-style-type: none;
+    /*background-color: #F7BE81;*/
+}
+
+.task {
+    background-color: #DDD;
+    position: relative;
+    margin-bottom: 1em;
+    padding: 1.5em;
+    width: 950px;
+    margin-right: 50px;
+}
+
+.task .created {
+    /*position: absolute;*/
+    bottom: 1.5em;
+    right: 1.5em;
+}
+
+.textTop{
+	vertical-align: top;
+}
+
+.width900{
+	width: 900px;
+}
+
+.width300{
+	width: 300px;
+}
+
+.width50p{
+	width: 50%;
+}
+
+.floatLeft{
+	float: left;
+}
+
+.floatRight{
+	float: right;
+}
+
+.due .past {
+    color: #D00;
+}
+
+.due .today {
+    color: #00D;
+}
+
+.due .imminent {
+    color: #D90;
+}
+
+.status .done {
+    color: #9AFE2E;
+}
+
+.status .open {
+    color: #FFFF00;
+}
+
+.alignRight{
+	text-align: right;
+}
